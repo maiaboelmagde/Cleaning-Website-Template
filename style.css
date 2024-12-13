@@ -262,6 +262,8 @@ display: inline;
     width: 1500px;
     height: 400px;
     margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: rgba(76,91,92,255) ;
     background-image: url("assets/sec6-background.avif") ;
     background-size: cover;
     background-position: center;
@@ -272,6 +274,7 @@ display: inline;
     background-color: rgba(69, 77, 79, 0.6) !important; /* Semi-transparent blue */
     text-align: center;
     padding: 80px 200px 0px;
+    margin: 0px;
 }
 
 
@@ -304,4 +307,84 @@ display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 0;
     font-size: 16px;
+}
+
+#section7{
+    height: 500px;
+    width: 1100px;
+    background-color: rgba(76,91,92,255) ;
+    padding: 100px 200px 100px;
+    display: flex;
+    gap: 300px;
+    text-align: center;
+}
+
+
+#sec7-left p{
+    font-size: 18px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+div #sec7-head{
+    font-size: 38px;   
+}
+
+#sec7-left{
+    width: 400px;
+    text-align: left;
+    padding-top: 100px;
+}
+#sec7-left button{
+    color: rgba(76,91,92,255);
+    font-size: 17px;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+
+#sec7-right fieldset{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgba(255,249,175,255);
+    padding: 25px 50px 40px;
+    border-radius:20px 10px 0px 0px;
+}
+#sec7-right legend{
+    background-color: black;
+    color: beige;
+    padding: 0px 10px;
+}
+#sec7-right .bi{
+    font-size: 23px;
+}
+#sec7-right #money{
+    font-size: 65px;
+}
+#money sup{
+    font-size: 30px;
+}
+#sec7-right #sub{
+    font-size: 13px;
+}
+#sec7-right button{
+    background-color: black;
+    color: beige;
+    font-size: large;
+    padding: 12px 140px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+#sec7-right #part2{
+    display: inline-block;
+    background-color: white;
+    width: 415px;
+    padding: 10px;
+}
+#part2>span{
+    margin: 12px;
+    display: inline-block;
+    font-size: 18px;
 }
